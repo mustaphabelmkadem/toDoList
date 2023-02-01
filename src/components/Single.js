@@ -8,7 +8,7 @@ const Single = () => {
   const product = dataProducts.filter((product) => product.id === parseInt(id));
 
   return (
-    <div class="card" style={{ width: '14rem', margin: '2rem auto' }}>
+    <div class="card" style={{ width: '13.8rem', margin: '2rem auto' }}>
       <img
         src={`/img/${product[0].thumbnail}`}
         className="card-img-top"
